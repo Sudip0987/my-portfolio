@@ -9,7 +9,7 @@ function Header() {
 
         {/* Navigation */}
         <nav>
-          <ul className="flex space-x-6 text-lg">
+          <ul className="flex flex-wrap space-x-6 text-lg">
             <li><a href="#home" className="hover:text-yellow-400">Home</a></li>
             <li><a href="#about" className="hover:text-yellow-400">About</a></li>
             <li><a href="#projects" className="hover:text-yellow-400">Projects</a></li>
