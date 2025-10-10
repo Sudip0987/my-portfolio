@@ -53,6 +53,15 @@ function Header() {
             </li>
             <li>
               <Link
+                to="experience"
+                smooth={true}
+                duration={400}
+                onClick={() => setIsOpen(false)} className="hover:text-yellow-400 px-4 py-2 rounded transform transition duration-200 ease-in-out hover:scale-110 inline-block cursor-pointer"
+              >Experience</Link>
+
+            </li>
+            <li>
+              <Link
                 to="projects"
                 smooth={true}
                 duration={400}
