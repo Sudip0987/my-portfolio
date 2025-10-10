@@ -13,10 +13,10 @@ function App() {
       <Header />
       <Hero/>
      <About/>
+     <Experience/>
      <Projects/>
      <Contact/>
      <Footer/>
-     <Experience/>
       {/* Other sections will go here later */}
     </div>
   );
