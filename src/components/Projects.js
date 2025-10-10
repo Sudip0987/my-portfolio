@@ -2,7 +2,7 @@ import React from "react";
 
 function Projects() {
   return (
-    <section id="projects" className="bg-gray-100 py-24">
+    <section id="projects" className="bg-gray-200 py-24">
       <div className="max-w-6xl mx-auto px-6">
         {/* Heading */}
         <h2 className="text-4xl font-bold text-center mb-12">Projects</h2>
@@ -37,10 +37,10 @@ function Projects() {
             <p className="text-gray-700 mb-4">
               Short description of the project goes here. What it does and technologies used.
             </p>
-            <span className="inline-block bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">
+            <span className="inline-block bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm mr-1">
               HTML/CSS
             </span>
-            <span className="inline-block bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">
+            <span className="inline-block bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm mr-1">
               PHP
             </span><span className="inline-block bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">
               Tailwind
