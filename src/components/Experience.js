@@ -7,7 +7,7 @@ function Experience() {
                 <h2 className="text-4xl text-center font-bold mb-6s">Past experience</h2>
                 {/*Experience cards*/}
 
-                <div className="my-10 max-w-4xl mx-auto flex flex-row md:flex-row items-stretch p-5 gap-6 rounded-md border border-gray-300/70 shadow-md" >
+                <div className="my-10 max-w-4xl mx-auto flex flex-col md:flex-row items-stretch p-5 gap-6 rounded-md border border-gray-300/70 shadow-md" >
                     <img className="w-full md:w-2/3 h-80 object-cover rounded-lg" alt="Supported decision-making project"
                         src="/images/screenshots/supporteddecisionmaking.png"></img>
                     <div className="flex flex-col">
@@ -19,7 +19,7 @@ function Experience() {
                             <span className="inline-block rounded-full bg-purple-100  text-purple-800 px-3 py-1 text-sm">PHP</span>
                         </div>
 
-                         <a href="https://decidingwithsupport.flinders.edu.au/" target="_blank" rel="noopener noreferrer"className="w-32 sm:w-32 text-center mt-4 bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">Live demo</a>
+                         <a href="https://decidingwithsupport.flinders.edu.au/" target="_blank" rel="noopener noreferrer"className="inline-block  text-center mt-4 bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">Live demo</a>
 
                     </div>
 
