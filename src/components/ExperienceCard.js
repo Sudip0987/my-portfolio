@@ -5,7 +5,7 @@ function ExperienceCard({title, description, image, technologies, link}){
     return(
   <div className="my-10 max-w-4xl mx-auto flex flex-col md:flex-row items-stretch p-5 gap-6 rounded-md border border-gray-300/70 shadow-md" >
                     <img className="w-full md:w-2/3 h-80 object-cover rounded-lg" alt="Supported decision-making project"
-                        src="/images/screenshots/supporteddecisionmaking.png"></img>
+                        src={image}></img>
                     <div className="flex flex-col">
                         <h3 className="text-2xl mb-5" > {title}</h3>
 <                       p className="text-gray-700 mb-4">{description}</p>
