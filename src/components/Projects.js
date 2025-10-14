@@ -1,5 +1,24 @@
 import React from "react";
+import ProjectCard from "./ProjectCard";
 
+const projects= [
+  {title:"Project 1",
+    description:"Short description of the project goes here. What it does and technologies used.",
+    technologies:["HTML/CSS (TailWind)", "PHP","React"]
+  },
+  {title:"Project 2",
+    description:"Short description of the project goes here. What it does and technologies used.",
+    technologies:["HTML/CSS (TailWind)", "PHP","React"]
+  },
+    {title:"Project 3",
+    description:"Short description of the project goes here. What it does and technologies used.",
+    technologies:["HTML/CSS (TailWind)", "PHP","React"]
+  },
+     {title:"Project 4",
+    description:"Short description of the project goes here. What it does and technologies used.",
+    technologies:["HTML/CSS (TailWind)", "PHP","React"]
+  }
+]; 
 function Projects() {
   return (
     <section id="projects" className="bg-gray-200 py-24">
@@ -9,44 +28,15 @@ function Projects() {
 
         {/* Grid of projects */}
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {/* Project Card 1 */}
-          <div className="bg-white rounded-lg shadow p-6 hover:shadow-lg transition">
-            <h3 className="text-2xl font-bold mb-2">Project One</h3>
-            <p className="text-gray-700 mb-4">
-              Short description of the project goes here. What it does and technologies used.
-            </p>
-            <span className="inline-block bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">
-              React
-            </span>
+        {projects.map((proj,index)=>(
+          <ProjectCard
+          key={index}
+          title={proj.title}
+          description={proj.description}
+          technologies={proj.technologies}
+            />
+        ))}
           </div>
-
-          {/* Project Card 2 */}
-          <div className="bg-white rounded-lg shadow p-6 hover:shadow-lg transition">
-            <h3 className="text-2xl font-bold mb-2">Project Two</h3>
-            <p className="text-gray-700 mb-4">
-              Short description of the project goes here. What it does and technologies used.
-            </p>
-            <span className="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">
-              JavaScript
-            </span>
-          </div>
-
-          {/* Project Card 3 */}
-          <div className="bg-white rounded-lg shadow p-6 hover:shadow-lg transition">
-            <h3 className="text-2xl font-bold mb-2">Project Three</h3>
-            <p className="text-gray-700 mb-4">
-              Short description of the project goes here. What it does and technologies used.
-            </p>
-            <span className="inline-block bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm mr-1">
-              HTML/CSS
-            </span>
-            <span className="inline-block bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm mr-1">
-              PHP
-            </span><span className="inline-block bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">
-              Tailwind
-            </span>
-          </div>
-        </div>
       </div>
     </section>
   );
