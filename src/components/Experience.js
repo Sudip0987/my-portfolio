@@ -9,6 +9,7 @@ const experiences = [
     image: "/images/screenshots/supporteddecisionmaking.png",
     technologies: ["HTML/CSS", "PHP", "JavaScript", "WordPress"],
     link: "https://decidingwithsupport.flinders.edu.au/",
+    demo:true
   },
   {
     title: "Scaffold in CPA Course Construction",
@@ -17,6 +18,7 @@ const experiences = [
     image: "/images/screenshots/scaffoldScreenshot.png",
     technologies: ["HTML/CSS", "PHP", "JavaScript", "React"],
     link: "#",
+    demo:false
   },
   {
     title: "Santa Clara University Canvas Course Template",
@@ -25,6 +27,8 @@ const experiences = [
     image: "/images/screenshots/SCUScreenshot1.png",
     technologies: ["HTML/CSS", "JavaScript"],
     link: "#",
+        demo:false
+
   },
   {
     title: "NESA Canvas Course Template",
@@ -33,6 +37,8 @@ const experiences = [
     image: "/images/screenshots/NesaScreenshot.png",
     technologies: ["HTML/CSS", "JavaScript"],
     link: "#",
+        demo:false
+
   },
   {
     title: "DSI Canvas Course Template",
@@ -41,6 +47,8 @@ const experiences = [
     image: "/images/screenshots/DSIScreenshot1.png",
     technologies: ["HTML/CSS", "JavaScript"],
     link: "#",
+        demo:false
+
   },
 
 ];
@@ -61,6 +69,7 @@ function Experience() {
                 image={exp.image}
                 technologies={exp.technologies}
                 link={exp.link}
+                demo={exp.demo}
                 />
               ))}
               
