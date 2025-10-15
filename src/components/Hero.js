@@ -8,7 +8,7 @@ return(
   I'm a web developer building modern, responsive web applications using React, JavaScript, and Tailwind CSS.
 </p>
    
-    <a href = "#projects" className = "bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">
+    <a href = "#experience" className = "bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">
         View my work
     </a>
     </div>

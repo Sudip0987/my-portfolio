@@ -10,6 +10,8 @@ import Experience from "./components/Experience";
 function App() {
   return (
     <div>
+      <title>Sudip Sharma Portfolio</title>
+
       <Header />
       <Hero/>
      <About/>
