@@ -11,7 +11,7 @@ function Contact (){
         </p>
         {/* Contact info */}
         <div className = "flex justify-center gap-6 text-blue-600 text-lg">
-            <a href = "mailto:sudeepsharma17@gmail.com" className = "hover:underline">Email</a>
+            <a href = "mailto:sudeepsharma17@gmail.com" target="_blank" rel="noopener noreferer"  className = "hover:underline">Email</a>
             <a href="https://www.linkedin.com/in/sudip-sharma-59a203114/" target="_blank" rel="noopener noreferrer" className="hover:underline">
             LinkedIn
           </a>
